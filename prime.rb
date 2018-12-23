@@ -1,4 +1,4 @@
 # Add  code here!
 def prime?(number)
-  array.any?{|num| n % num == 0}
+  (2..n-1).any?{|num| n % num == 0}
 end
