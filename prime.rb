@@ -1,5 +1,9 @@
 # Add  code here!
 
-def prime?(n)
-  (2..n-1).each {|x| n % x == 0 }
+def prime?(integer)
+  (2..integer - 1).all? do |x| integer % x != 0
+  end
+else
+  return false
+end
 end
