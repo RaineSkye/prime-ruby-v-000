@@ -1,5 +1,5 @@
 # Add  code here!
 
-def prime?(int)
-  (2..x-1).each {|x| int % x == 0 }
+def prime?(n)
+  (2..n-1).each {|x| x % n == 0 }
 end
